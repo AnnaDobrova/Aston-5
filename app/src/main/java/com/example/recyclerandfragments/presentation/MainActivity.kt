@@ -1,13 +1,9 @@
 package com.example.recyclerandfragments.presentation
 
-import android.os.Binder
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentContainerView
 import com.example.recyclerandfragments.R
-import com.example.recyclerandfragments.databinding.ActivityMainBinding
 
 class MainActivity :
     FragmentActivity(R.layout.activity_main),

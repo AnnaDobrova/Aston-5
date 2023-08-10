@@ -2,7 +2,6 @@ package com.example.recyclerandfragments.presentation
 
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -54,28 +53,24 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
         val resultLastName = binding.textViewWithLastNameInfo.text.toString()
         val resultNumber = binding.textViewWithNumberInfo.text.toString()
         if (resultId == "1") {
-
             setFragmentResult(
                 REQUEST_KEY_1,
                 bundleOf(NAME to resultName, LAST_NAME to resultLastName, NUMBER to resultNumber)
             )
         }
         if (resultId == "2") {
-
             setFragmentResult(
                 REQUEST_KEY_2,
                 bundleOf(NAME to resultName, LAST_NAME to resultLastName, NUMBER to resultNumber)
             )
         }
         if (resultId == "3") {
-
             setFragmentResult(
                 REQUEST_KEY_3,
                 bundleOf(NAME to resultName, LAST_NAME to resultLastName, NUMBER to resultNumber)
             )
         }
         if (resultId == "4") {
-
             setFragmentResult(
                 REQUEST_KEY_4,
                 bundleOf(NAME to resultName, LAST_NAME to resultLastName, NUMBER to resultNumber)
